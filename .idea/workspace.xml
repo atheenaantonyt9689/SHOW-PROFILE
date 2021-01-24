@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="007f9dea-5ab2-4d8c-ac0e-7c2e6388bf04" name="Default Changelist" comment="" />
+    <list default="true" id="007f9dea-5ab2-4d8c-ac0e-7c2e6388bf04" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Registration/Registration/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Registration/Registration/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Registration/Registration/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Registration/Registration/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Registration/myapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Registration/myapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Registration/myapp/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Registration/myapp/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Registration/myapp/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Registration/myapp/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Registration/myapp/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/Registration/myapp/templates/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Registration/myapp/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/Registration/myapp/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Registration/myapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Registration/myapp/views.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +25,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1nNANL9KTZEbAkeQhZQJ7lZhSOo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Registration/myapp/static" />
   </component>
@@ -53,6 +68,19 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

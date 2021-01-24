@@ -20,7 +20,28 @@
   <link rel="stylesheet" href="{% static 'assets/vendor/fullcalendar/dist/fullcalendar.min.css' %}">
   <link rel="stylesheet" href="{% static 'assets/vendor/sweetalert2/dist/sweetalert2.min.css' %}">
   <!-- Argon CSS -->
-  <link rel="stylesheet" href="{% static 'css/dashboard.css' %}" type="text/css">
+  <link rel="stylesheet" href="{% static 'css/dashboard.css' %}" type="text/css' %}">
+  <script>
+    function validata()
+    {
+    var x=document.getElementById("Name").value;
+    var y=document.getElementById("Password").value;
+    if(x==""&& y=="")
+    {
+    alert("user-id is wrong");
+    return false;
+    }
+    else if(x=="")
+    {
+    alert ("password is wrong")
+    return false
+    }
+    else {
+    alert("submit")
+    return true
+    }
+    }
+    </script>
 
 </head>
 
@@ -115,13 +136,14 @@
 
             <div class="card-body px-lg-5 py-lg-5">
 
-              <form role="form">
+              <form role="form" method="POST" action="">
+                {% csrf_token %}
                 <div class="form-group">
                   <div class="input-group input-group-merge input-group-alternative mb-3">
                     <div class="input-group-prepend">
                       <span class="input-group-text"><i class="ni ni-hat-3"></i></span>
                     </div>
-                    <input class="form-control" placeholder="Name" type="text">
+                    <input class="form-control" placeholder="Name" type="text" name="Name">
                   </div>
                 </div>
                 <div class="form-group">
@@ -129,7 +151,7 @@
                     <div class="input-group-prepend">
                       <span class="input-group-text"><i class="ni ni-email-83"></i></span>
                     </div>
-                    <input class="form-control" placeholder="Email" type="email">
+                    <input class="form-control" placeholder="Email" type="email" name="Email">
                   </div>
                 </div>
                 <div class="form-group">
@@ -137,7 +159,7 @@
                     <div class="input-group-prepend">
                       <span class="input-group-text"><i class="ni ni-lock-circle-open"></i></span>
                     </div>
-                    <input class="form-control" placeholder="Password" type="password">
+                    <input class="form-control" placeholder="Password" type="password" name="Password">
                   </div>
                 </div>
                 <div class="text-muted font-italic"><small>password strength: <span class="text-success font-weight-700">strong</span></small></div>
@@ -152,7 +174,7 @@
                   </div>
                 </div>
                 <div class="text-center">
-                  <button type="button" class="btn btn-primary mt-4">Register</button>
+                  <button type="button" class="btn btn-primary mt-4"  name="submit" onclick="alert('sucessfully registerd')">Register</button>
                 </div>
               </form>
             </div>
@@ -190,7 +212,7 @@
   <!-- Core -->
   <script src="{% static 'assets/vendor/jquery/dist/jquery.min.js' %}"></script>
   <script src="{% static 'assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js' %}"></script>
-  <script src="{% static 'assets/vendor/js-cookie/js.cookie.js' % }"></script>
+  <script src="{% static 'assets/vendor/js-cookie/js.cookie.js' %}"></script>
   <script src="{% static 'assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js' %}"></script>
   <script src="{% static 'assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js' %}"></script>
   <!-- Argon JS -->
