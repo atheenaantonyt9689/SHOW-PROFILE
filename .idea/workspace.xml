@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="007f9dea-5ab2-4d8c-ac0e-7c2e6388bf04" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Registration/Registration/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Registration/Registration/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Registration/Registration/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Registration/Registration/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Registration/myapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Registration/myapp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Registration/myapp/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Registration/myapp/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Registration/myapp/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Registration/myapp/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Registration/myapp/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/Registration/myapp/templates/profile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Registration/myapp/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/Registration/myapp/templates/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Registration/myapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Registration/myapp/views.py" afterDir="false" />
     </list>
@@ -81,16 +76,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Registration/Registration/urls.py</url>
-          <line>15</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
